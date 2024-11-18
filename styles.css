@@ -1,0 +1,200 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    background-color: #FF6F61;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.header ul {
+    display: flex;
+    align-self: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    margin-right: 100px;
+    gap: 32px;
+}
+
+.header ul a {
+    color: #F7F7F7;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.logo {
+    display: flex;
+    margin-left: 100px;
+    align-items: center;
+    font-size: 30px;
+    color: #F7F7F7;
+    gap: 16px;
+}
+
+.logo img {
+    width: 75px;
+    height: auto;
+}
+
+.first {
+    min-height: 400px;
+    background-color: #F7F7F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.first .container .right img {
+    width: auto;
+    height: 250px;
+    border: 4px solid #4B4B4B;
+}
+
+.first .container .left {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.first .container .left .main-text {
+    font-size: 42px;
+    color: #4B4B4B;
+}
+
+.first .container .left .secondary-text {
+    color: #4B4B4B;
+    margin-bottom: 16px;
+}
+
+.button {
+    padding: 8px;
+    width: 120px;
+    border-radius: 8px;
+    color: #F7F7F7;
+    font-weight: bold;
+    background-color: #4B4B4B;
+}
+
+h1 {
+    margin: 0;
+}
+
+.second {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: #00C8FF;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.second .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+}
+
+.second .title {
+    color: #002B5C;
+    font-size: 28px;
+}
+
+.russet img, .red img, .white img, .purple img {
+    width: 200px;
+    height: 130px;
+    border: 4px solid #002B5C;
+    border-radius: 16px;
+    margin-bottom: 16px;
+}
+
+.russet .text, .red .text, .white .text, .purple .text {
+    text-align: center;
+    font-size: 24px;
+    max-width: 200px;
+    color: #002B5C;
+}
+
+.third {
+    height: 400px;
+    display: flex;
+    background-color: #002B5C;
+    justify-content: center;
+    align-items: center;
+}
+
+.third .container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+}
+
+.third .container .quote {
+    font-size: 32px;
+    color: #FF6F61;
+}
+
+.third .container .sign {
+    font-size: 28px;
+    align-self: flex-end;
+    color: #FF6F61;
+    margin-right: 100px;
+}
+
+.fourth {
+    height: 300px;
+    display: flex;
+    background-color: #00C8FF;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth .container {
+    display: flex;
+    background-color: #002B5C;
+    width: 1000px;
+    height: 150px;
+    justify-content: space-between;
+    align-items: center;
+    border: 4px solid #4B4B4B;
+    border-radius: 16px;
+}
+
+.fourth .container .left {
+    color: #F7F7F7;
+    font-size: 18px;
+    margin-left: 150px;
+}
+
+.fourth .container .left div strong {
+    font-size: 22px;
+}
+
+.fourth .container .right {
+    margin-right: 150px;
+}
+
+.footer {
+    background-color: #F4D6A0;
+    display: flex;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+
+.footer .copy-right {
+    color: #4B4B4B;
+    font-size: 18px;
+}
